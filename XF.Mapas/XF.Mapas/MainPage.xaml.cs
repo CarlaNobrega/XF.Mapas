@@ -13,5 +13,20 @@ namespace XF.Mapas
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void OnMapa_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new View.MapaView());
+        }
+
+        private void OnControle_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new View.ControleView());
+        }
+
+        private void OnLocalizacao_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new View.LocalizacaoView());
+        }
+    }
 }

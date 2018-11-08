@@ -5,10 +5,9 @@
              x:Class="XF.Mapas.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Button Text="Mapa" Clicked="OnMapa_Clicked" />
+        <Button Text="Controle" Clicked="OnControle_Clicked" />
+        <Button Text="Localização" Clicked="OnLocalizacao_Clicked" />
     </StackLayout>
 
 </ContentPage>

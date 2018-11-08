@@ -3,6 +3,6 @@
 	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="27" />
   <application android:label="XF.Mapas.Android">
     <meta-data android:name="com.google.android.maps.v2.API_KEY"
-               android:value="{Informe sua chave aqui}" />
+               android:value="AIzaSyBEhwnCwTCpFoKKQo2crGs02oN_IAo8uYw" />
   </application>
 </manifest>
